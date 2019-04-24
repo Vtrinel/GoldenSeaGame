@@ -1,2 +1,0 @@
-# GoldenSeaGame
-Mobile Game Project
