@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: e27e782cba58c2343af145e45c627b31
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Coque
+    100002: Coque_sol
+    100004: Corde_arriere
+    100006: Corde_Milieu
+    100008: Corde_nez
+    100010: Gouvernail
+    100012: //RootNode
+    100014: Mat
+    100016: Mat_Arriere
+    100018: Nez
+    100020: Noeud_Corde_Nez_01
+    100022: Noeud_Corde_Nez_02
+    100024: Noeud_Corde_Nez_03
+    100026: Noeud_Mat_Arriere_01
+    100028: Noeud_Mat_Arriere_02
+    100030: Noeud_Mat_Arriere_03
+    100032: Noeud_Nez_01
+    100034: Noeud_Nez_02
+    100036: Noeud_Nez_03
+    100038: Noeud_Voile_Mat_01
+    100040: Noeud_Voile_Mat_02
+    100042: Noeud_Voile_Mat_03
+    100044: Voile_Arriere
+    100046: Voile_nez
+    100048: Voile_Principale
+    400000: Coque
+    400002: Coque_sol
+    400004: Corde_arriere
+    400006: Corde_Milieu
+    400008: Corde_nez
+    400010: Gouvernail
+    400012: //RootNode
+    400014: Mat
+    400016: Mat_Arriere
+    400018: Nez
+    400020: Noeud_Corde_Nez_01
+    400022: Noeud_Corde_Nez_02
+    400024: Noeud_Corde_Nez_03
+    400026: Noeud_Mat_Arriere_01
+    400028: Noeud_Mat_Arriere_02
+    400030: Noeud_Mat_Arriere_03
+    400032: Noeud_Nez_01
+    400034: Noeud_Nez_02
+    400036: Noeud_Nez_03
+    400038: Noeud_Voile_Mat_01
+    400040: Noeud_Voile_Mat_02
+    400042: Noeud_Voile_Mat_03
+    400044: Voile_Arriere
+    400046: Voile_nez
+    400048: Voile_Principale
+    2100000: M_TranspMode
+    2300000: Coque
+    2300002: Coque_sol
+    2300004: Corde_arriere
+    2300006: Corde_Milieu
+    2300008: Corde_nez
+    2300010: Gouvernail
+    2300012: Mat
+    2300014: Mat_Arriere
+    2300016: Nez
+    2300018: Noeud_Corde_Nez_01
+    2300020: Noeud_Corde_Nez_02
+    2300022: Noeud_Corde_Nez_03
+    2300024: Noeud_Mat_Arriere_01
+    2300026: Noeud_Mat_Arriere_02
+    2300028: Noeud_Mat_Arriere_03
+    2300030: Noeud_Nez_01
+    2300032: Noeud_Nez_02
+    2300034: Noeud_Nez_03
+    2300036: Noeud_Voile_Mat_01
+    2300038: Noeud_Voile_Mat_02
+    2300040: Noeud_Voile_Mat_03
+    2300042: Voile_Arriere
+    2300044: Voile_nez
+    2300046: Voile_Principale
+    2300048: //RootNode
+    3300000: Coque
+    3300002: Coque_sol
+    3300004: Corde_arriere
+    3300006: Corde_Milieu
+    3300008: Corde_nez
+    3300010: Gouvernail
+    3300012: Mat
+    3300014: Mat_Arriere
+    3300016: Nez
+    3300018: Noeud_Corde_Nez_01
+    3300020: Noeud_Corde_Nez_02
+    3300022: Noeud_Corde_Nez_03
+    3300024: Noeud_Mat_Arriere_01
+    3300026: Noeud_Mat_Arriere_02
+    3300028: Noeud_Mat_Arriere_03
+    3300030: Noeud_Nez_01
+    3300032: Noeud_Nez_02
+    3300034: Noeud_Nez_03
+    3300036: Noeud_Voile_Mat_01
+    3300038: Noeud_Voile_Mat_02
+    3300040: Noeud_Voile_Mat_03
+    3300042: Voile_Arriere
+    3300044: Voile_nez
+    3300046: Voile_Principale
+    3300048: //RootNode
+    4300000: Coque
+    4300002: Mat_Arriere
+    4300004: Voile_Arriere
+    4300006: Nez
+    4300008: Mat
+    4300010: Voile_nez
+    4300012: Gouvernail
+    4300014: Noeud_Corde_Nez_03
+    4300016: Noeud_Corde_Nez_02
+    4300018: Noeud_Corde_Nez_01
+    4300020: Noeud_Nez_03
+    4300022: Noeud_Nez_02
+    4300024: Noeud_Nez_01
+    4300026: Corde_nez
+    4300028: Coque_sol
+    4300030: Corde_Milieu
+    4300032: Corde_arriere
+    4300034: Noeud_Voile_Mat_01
+    4300036: Noeud_Voile_Mat_02
+    4300038: Noeud_Voile_Mat_03
+    4300040: Noeud_Mat_Arriere_03
+    4300042: Noeud_Mat_Arriere_02
+    4300044: Noeud_Mat_Arriere_01
+    4300046: Voile_Principale
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,317 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &2198718373429726487 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1117564632230991903, guid: 6b28f802cd023cb4683cc6b4214e1a98,
+    type: 3}
+  m_PrefabInstance: {fileID: 1225271202538083592}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &2198718373434514479 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1117564632227907879, guid: 6b28f802cd023cb4683cc6b4214e1a98,
+    type: 3}
+  m_PrefabInstance: {fileID: 1225271202538083592}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8168578060451993245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8168578060451993234}
+  - component: {fileID: 8168578060451993246}
+  - component: {fileID: 8168578060451993247}
+  - component: {fileID: 8168578060451993244}
+  - component: {fileID: 8168578060451993233}
+  m_Layer: 9
+  m_Name: FlyingFish
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8168578060451993234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8168578060451993245}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.76, y: 44.84, z: 0.63}
+  m_LocalScale: {x: 1.92, y: 2, z: 1.8}
+  m_Children:
+  - {fileID: 2198718373429726487}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &8168578060451993246
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8168578060451993245}
+  serializedVersion: 2
+  m_Mass: 50
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 2
+--- !u!114 &8168578060451993247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8168578060451993245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46021455e2751da46b4615ede731238e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  insideNet: 0
+  isCaptured: 0
+  netShakeAmplitude: 1.2
+  fishType: 1
+  fishValue:
+    initialValue: 50
+  fishSize: 1
+  value: 100
+  size: 0
+  goldenFishMovement: {fileID: 8168578060451993244}
+  rotation: {x: -90, y: 0, z: 0}
+  fishCollider: {fileID: 8168578060451993233}
+  needToBeInsideForCapture: 0
+  fishRenderer: {fileID: 2198718373434514479}
+  particleTarget: {fileID: 0}
+--- !u!114 &8168578060451993244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8168578060451993245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60390dedf4b26ca448d1a4d59c9e5e58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 8168578060451993246}
+  speed: 400
+  canMove: 1
+  flyCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.18831779
+      outSlope: 0.18831779
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.28114456
+    - serializedVersion: 3
+      time: 0.28160354
+      value: 0.053969733
+      inSlope: 0.71094924
+      outSlope: 0.36716613
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.3514388
+      outWeight: 0.81105244
+    - serializedVersion: 3
+      time: 0.40255222
+      value: 0.8215477
+      inSlope: 2.0218427
+      outSlope: 2.0218427
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.24490663
+    - serializedVersion: 3
+      time: 0.64694655
+      value: 0.98403907
+      inSlope: -2.0034907
+      outSlope: -2.0034907
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.44143483
+      outWeight: 0.1965065
+    - serializedVersion: 3
+      time: 0.7440221
+      value: 0.26221633
+      inSlope: -5.808402
+      outSlope: -9.540206
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.07474811
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.031159846
+      outSlope: -0.031159846
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.21801329
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 1
+    m_RotationOrder: 4
+  speedCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.0028625727
+      value: 0.3068382
+      inSlope: -0.6448251
+      outSlope: -0.6448251
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.27819365
+    - serializedVersion: 3
+      time: 0.24713743
+      value: 0.5068382
+      inSlope: 2.19119
+      outSlope: 2.19119
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.29198986
+    - serializedVersion: 3
+      time: 0.325
+      value: 1
+      inSlope: 1.0643083
+      outSlope: 1.0643083
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.15277272
+    - serializedVersion: 3
+      time: 0.6921053
+      value: 1
+      inSlope: -0.7754129
+      outSlope: -0.7754129
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.44143483
+      outWeight: 0.21063939
+    - serializedVersion: 3
+      time: 0.90728784
+      value: 0.5526371
+      inSlope: -2.9521425
+      outSlope: -2.9521425
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.20794296
+    - serializedVersion: 3
+      time: 0.9971374
+      value: 0.3068382
+      inSlope: -3.1178584
+      outSlope: -3.1178584
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.46025145
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 1
+    m_RotationOrder: 4
+  flyCycle: 4.5
+  flyAmplitude: 5
+  first: {x: 0, y: 0, z: 0}
+  last: {x: 0, y: 0, z: 0}
+--- !u!65 &8168578060451993233
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8168578060451993245}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.195478, y: 1.282856, z: 0.90272474}
+  m_Center: {x: -0.07678246, y: 0.029117584, z: -0.09405577}
+--- !u!1001 &1225271202538083592
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8168578060451993234}
+    m_Modifications:
+    - target: {fileID: 1117564632230991903, guid: 6b28f802cd023cb4683cc6b4214e1a98,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117564632230991903, guid: 6b28f802cd023cb4683cc6b4214e1a98,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117564632230991903, guid: 6b28f802cd023cb4683cc6b4214e1a98,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117564632230991903, guid: 6b28f802cd023cb4683cc6b4214e1a98,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117564632230991903, guid: 6b28f802cd023cb4683cc6b4214e1a98,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117564632230991903, guid: 6b28f802cd023cb4683cc6b4214e1a98,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117564632230991903, guid: 6b28f802cd023cb4683cc6b4214e1a98,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117564632230991903, guid: 6b28f802cd023cb4683cc6b4214e1a98,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117564632230991903, guid: 6b28f802cd023cb4683cc6b4214e1a98,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117564632230991903, guid: 6b28f802cd023cb4683cc6b4214e1a98,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117564632230991903, guid: 6b28f802cd023cb4683cc6b4214e1a98,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117564632231085119, guid: 6b28f802cd023cb4683cc6b4214e1a98,
+        type: 3}
+      propertyPath: m_Name
+      value: FlyingFish_animated
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1117564632312982113, guid: 6b28f802cd023cb4683cc6b4214e1a98, type: 3}
+    - {fileID: 1117564632312982124, guid: 6b28f802cd023cb4683cc6b4214e1a98, type: 3}
+    - {fileID: 1117564632312982112, guid: 6b28f802cd023cb4683cc6b4214e1a98, type: 3}
+    - {fileID: 1117564632312982125, guid: 6b28f802cd023cb4683cc6b4214e1a98, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 6b28f802cd023cb4683cc6b4214e1a98, type: 3}

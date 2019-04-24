@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Capturable
+  - NetPoints
+  - Background
+  - NetColliders
+  - ShipCollider
+  - ShipRight
+  - ShipLeft
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Fx
+    uniqueID: 1517841257
+    locked: 0
+  - name: UI
+    uniqueID: 254948159
+    locked: 0
+  - name: FxUI
+    uniqueID: 1163389675
+    locked: 0
